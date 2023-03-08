@@ -1,0 +1,76 @@
+
+<body bgcolor="5DACFB">
+<img src="/storage/emulated/0/Download/IMG_20230307_131243.jpg"width="350"height="270">
+
+<br><br>
+<div class="discount-notice">
+  <h2>Claim your voucher now!</h2>
+  <p>Get up to <strong>90% discount</strong> on all products.</p>
+  <button onclick="openRandomPage()"class="claim-btn">Claim Voucher</a>
+</div>
+<br>
+<br>
+
+<div class="parent">
+<center><img src="/storage/emulated/0/Download/IMG_20230307_133952.jpg"width="90"height="45"style="float:left; margin-right:25px;">
+<img src="/storage/emulated/0/Download/aarong-logo-481A469803-seeklogo.com.png"width="110"height="52"style="float:left;">
+<img src="https://seeklogo.com/images/B/bkash-logo-835789094A-seeklogo.com.png"width="100"height="55">
+</div>
+</center>
+<style>
+.discount-notice {
+  background-color: #fff;
+  border: 2px solid #FF164B;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.discount-notice h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.discount-notice p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.discount-notice strong {
+  color: #FCB30F;
+}
+
+.claim-btn {
+  background-color: #FF164B;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.claim-btn:hover {
+  background-color: #FF164B;
+}
+.paret{
+
+display:flex;
+
+}
+
+</style>
+<script>
+  function openRandomPage() {
+    // Generate a random number between 1 and 3
+    const pageNumber = Math.floor(Math.random() * 3) + 1;
+
+    // Open the corresponding page
+    window.location.href = `page${pageNumber}.html`;
+  }
+</script>
